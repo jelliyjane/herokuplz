@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+    <head>
+        <title>jane's plan</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static 'css/style_plan.css' %}">
+      </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{% url 'home' %}">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="{% url 'plan' %}">PLAN <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="{% url 'improvement' %}">Self-improvement</a>
+                <a class="nav-item nav-link" href="{% url 'book' %}">왜 일하는가?</a>
+              </div>
+            </div>
+          </nav>
+
+          <h1 id="home_title">장학금 사용 계획</h1>
+
+          <p>생활비: 저는 지금 한달에 35~40만원 정도 사용합니다. 매달 1일에 40만원 이상 돈이 있으면 다른 계좌에 저금하는 편입니다. 그래서 한 학기로 생각해 보면 40x6=240만원</p>
+          <p>기숙사비: 6개월 기숙사비는 150만원 조금 넘습니다. 150만원</p>
+          <p>한 학기를 생각해 보면 대략 390만원이 고정적으로 나갑니다.</p>
+          <br>
+          <p>그래서 저는 이 장학금을 순수히 생활비 명목으로 사용할 예정입니다. </p>
+          <p>물론 남는 돈은 저금하고 싶어요! '올해에 다 쓰겠다'보다는 아껴서 써야겠다 라고 생각합니다.</p>
+          <p>처음에는 엄청나게 큰 돈 이라고 생각했는데 버는 돈, 부모님 도움을 제외하고 제가 사용하는 돈을 다 내려고 보니 빠듯 하더라구요.</p>
+          <p>지금까지 한 번도 제가 한 학기, 일 년에 돈을 얼마큼 사용하나 계산해본 적이 없었습니다.</p>
+          <p>장학금은 제가 1년 동안 사용하는 돈과 맞먹었습니다. 그래서 그 일 년을 순수히 자기계발에 투자하겠습니다.</p>
+          
+    </body>
+</html>

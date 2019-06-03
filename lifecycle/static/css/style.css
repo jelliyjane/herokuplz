@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+span{
+    border: 1px solid green;
+    padding: 5px;
+}
+#home_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: green;
+}
+.grid {
+    overflow: hidden;
+}
+
+.grid_item {
+    width: 250px;
+    height: 150px;
+    margin-left: 25px;
+    float: left;
+}
+#present{
+    background-color: #e8eaed;
+}
+#point_color {color: green;}

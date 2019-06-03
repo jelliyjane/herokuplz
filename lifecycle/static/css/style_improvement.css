@@ -1,0 +1,28 @@
+
+#home_title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: green;
+    text-align: center;
+}
+th{
+    font-size: 15px;
+}
+table{
+    border-spacing: 15px;
+    width: 70%;
+}
+.line{
+    border-bottom:2px solid green;
+}
+.left-box {
+    margin-left: 70px;
+    float: left;
+    width: 45%;
+}
+.right-box {
+    margin-right: 70px;
+    float: right;
+    width: 45%;
+}
+
