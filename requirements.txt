@@ -13,7 +13,6 @@ hangul==0.1
 idna==2.8
 jamotools==0.1.10
 jmespath==0.9.4
-mecab-python3==0.996.2
 nltk==3.4.1
 numpy==1.16.3
 oauthlib==3.0.1
